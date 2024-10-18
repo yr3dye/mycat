@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent the Orange Cat</title>
+    <link rel="stylesheet" href="style1.css" id="pagestyle">
+    <style>
+        .style-button {
+            text-decoration: underline;
+            cursor: pointer;
+            margin-right: 10px;
+            background: none;
+            border: none;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>VINCENT THE ORANGE CAT</h1>
+    <h2>The cat of all times. Found in the trash. Just a little guy.</h2>
+
+    <button class="style-button" onclick="setStyle('style1.css')">Switch to Style 1</button>
+    <button class="style-button" onclick="setStyle('style2.css')">Switch to Style 2</button>
+
+    <div class="content">
+        <div class="photo-paragraph">
+            <img src="photo1.png" alt="Vincent the Cat" class="photo">
+            <p>This is Vincent. The orange kitty we took from the shelter a family friend worked at. He's a handsome boy and I love him very much. He is also very cultured and enjoys finer things in life, like those flowers. (see pic.1)</p>
+        </div>
+
+        <div class="photo-paragraph">
+            <img src="photo2.png" alt="Vincent as a non-newtonian fluid" class="photo">
+            <p>His Orange Majesty displays non-newtonian fluid properties.</p>
+        </div>
+
+        <div class="photo-paragraph">
+            <img src="photo3.png" alt="Vincent sitting on plastic bags" class="photo">
+            <p>He likes sitting in crinkly plastic bags.</p>
+        </div>
+
+        <div class="photo-paragraph">
+            <img src="photo4.png" alt="Vincent lounging on the chair" class="photo">
+            <img src="photo5.png" alt="Vincent lounging from another angle" class="photo">
+            <p>Vincent also likes to lounge around that old wooden chair, although he is yet to figure out (or purposefully ignores) the correct way of sitting on said piece of furniture.</p>
+        </div>
+    </div>
+
+    <footer>
+    <p>ZUT student Zhukanova Marharyta, 2024</p>
+
+    <p style="text-decoration: underline;">His favourite toys:</p>
+    <ul class="toy-list">
+        <li>Crinkly paper</li>
+        <li>Feather on a string</li>
+        <li>Bread (his favourite human food)</li>
+        <li>My socks</li>
+        <li>Claw scratcher</li>
+    </ul>
+</footer>
+
+
+    <script>
+        function setStyle(sheet) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+    </script>
+</body>
+</html>

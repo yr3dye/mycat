@@ -1,0 +1,62 @@
+body {
+    background-color: #000000; /* Black background */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #a0d8ff; /* Light blue text */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #a0d8ff;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #a0d8ff; /* Light blue color */
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.photo {
+    width: 10vw; /* 22.5% of viewport width */
+    max-width: 300px; /* Optional max-width */
+    margin-bottom: 20px;
+    border: 5px solid #a0d8ff; /* Light blue frame */
+    border-radius: 50%; /* Oval frame */
+}
+
+p {
+    background-color: rgba(160, 216, 255, 0.7); /* Almost transparent light blue */
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+    text-align: center;
+}
+
+ul.toy-list {
+    list-style-type: square; /* Square bullets */
+    padding-left: 20px;
+}
+
+footer {
+    text-align: left;
+    font-size: small;
+    margin-top: 20px;
+    color: #a0d8ff;
+}
